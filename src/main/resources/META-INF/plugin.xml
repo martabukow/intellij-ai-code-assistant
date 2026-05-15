@@ -1,0 +1,15 @@
+<idea-plugin>
+    <id>com.example.aicodeassistant</id>
+    <name>AI Code Assistant</name>
+    <vendor>YourName</vendor>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <actions>
+        <action id="ExplainCodeAction"
+                class="com.example.aicodeassistant.ExplainCodeAction"
+                text="Explain Code with AI">
+            <add-to-group group-id="EditorPopupMenu" anchor="last"/>
+        </action>
+    </actions>
+</idea-plugin>
